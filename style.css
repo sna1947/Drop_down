@@ -1,0 +1,28 @@
+.hdr_01{
+    background-color: rgb(216, 111, 111);
+    height: 60px;
+    border-radius: 5px;
+}
+.nv_01{
+    background-color: rgb(225, 235, 97);
+    display: flex;
+}
+.nv_01> ul{
+    display: flex;
+}
+.nv_01 ul li{
+   list-style: none;
+}
+   
+.nv_01 ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    background-color: rgba(100, 46, 9, 0.438);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 2px;
+}
+.nv_01 ul li a:hover{
+   color: chartreuse;
+   background-color: rgb(107, 73, 73); 
+}
