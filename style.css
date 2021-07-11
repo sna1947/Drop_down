@@ -3,26 +3,51 @@
     height: 60px;
     border-radius: 5px;
 }
-.nv_01{
-    background-color: rgb(225, 235, 97);
-    display: flex;
+.menu_ul > li > a{
+    margin-right: 20px;
+    padding: 2px;
 }
 .nv_01> ul{
     display: flex;
 }
-.nv_01 ul li{
+.nv_01{
+    background-color: rgb(225, 235, 97);
+    display: flex;
+}
+
+.nv_01 ul {
    list-style: none;
 }
    
 .nv_01 ul li a{
     text-decoration: none;
-    margin-right: 20px;
+    
     background-color: rgba(100, 46, 9, 0.438);
     color: aliceblue;
     border-radius: 5px;
-    padding: 2px;
+    
 }
 .nv_01 ul li a:hover{
    color: chartreuse;
    background-color: rgb(107, 73, 73); 
 }
+/* nav > ul > li:hover ul{
+    display: block;
+} */
+.nv_01 > .menu_ul > li:hover .dropdown_ul{
+    display: block;
+}
+
+.dropdown_ul{
+    display: none;
+    position: absolute;
+    background-color: rgba(189, 21, 21, 0.637);
+    padding: 0;
+}
+dropdown_ul li{
+   
+    margin-left: 20px;
+    text-align: center;
+}
+
+
